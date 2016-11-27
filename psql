@@ -1,0 +1,11 @@
+# Restore db from sql dump file
+psql -U username dbname < dump.sql
+
+
+# psql shell commands
+
+\c : Select db
+\dt :  List tables
+\x on : Print all columns as verticle of select statements.
+
+
